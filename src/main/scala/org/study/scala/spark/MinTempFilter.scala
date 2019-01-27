@@ -23,7 +23,7 @@ object MinTempFilter extends App {
     println("Printing Minimum")
   for(result <- results){
     val temp = result._2
-    val formatTemp = f"$temp%.2f F"
+    val formatTemp = f"$temp%.2f F" 
     println(s"$result._1 minimum Temperature :$formatTemp")
 
   }
