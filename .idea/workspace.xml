@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c5d1a19-b23f-4877-86f4-368d8f84e82f" name="Default Changelist" comment="" />
+    <list default="true" id="4c5d1a19-b23f-4877-86f4-368d8f84e82f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/scalaspark-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ScalaSpark-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3698229616655ff996ba$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3698229616655ff996ba.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3698229616655ff996ba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -16,31 +25,6 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1778109529">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="Scala" value="5" />
-          <entry key="sbt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Scala" value="1478" />
-          <entry key="sbt" value="8" />
-        </counts>
-      </usages-collector>
-    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -67,9 +51,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
               <caret line="23" column="38" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="38" />
-              <folding>
-                <element signature="e#31#56#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -77,11 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/CalculateAverage.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="493">
               <caret line="31" column="22" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="22" />
-              <folding>
-                <element signature="e#31#56#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -91,6 +69,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/MinTempFilter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="13" column="34" selection-start-line="8" selection-start-column="3" selection-end-line="13" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/WordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="47" />
               <folding>
                 <element signature="e#31#70#0" expanded="true" />
               </folding>
@@ -99,10 +95,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/MinTempFilter.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/CustomerOrders.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="221">
+              <caret line="13" column="114" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
               <folding>
                 <element signature="e#31#70#0" expanded="true" />
               </folding>
@@ -113,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/SparkContext.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
+            <state relative-caret-position="2380">
+              <caret line="140" column="41" selection-start-line="140" selection-start-column="41" selection-end-line="140" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -134,14 +130,17 @@
         <option value="$PROJECT_DIR$/src/main/scala/org/study/scala/spark/CalculateAverage.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/study/scala/spark/ReadFile.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/study/scala/spark/MinTempFilter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/study/scala/spark/WordCountSpark.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/study/scala/spark/WordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/study/scala/spark/CustomerOrders.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3832" />
-    <option name="y" value="-8" />
-    <option name="width" value="390" />
-    <option name="height" value="134" />
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
+    <option name="width" value="3873" />
+    <option name="height" value="2093" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -151,8 +150,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,10 +198,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548580403314" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548738097432" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.study.scala.spark" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,9 +220,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinTempFilter">
+  <component name="RunManager" selected="Application.CustomerOrders">
     <configuration name="CountFriends" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.study.scala.spark.CalculateAverage" />
+      <module name="ScalaSpark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.scala.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerOrders" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.scala.spark.CustomerOrders" />
       <module name="ScalaSpark" />
       <extension name="coverage">
         <pattern>
@@ -256,25 +273,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScala" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="TestScala" />
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.study.scala.spark.WordCount" />
       <module name="ScalaSpark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.study.scala.spark.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestScala" />
-      <item itemvalue="Application.RatingsCounter" />
       <item itemvalue="Application.CountFriends" />
       <item itemvalue="Application.MinTempFilter" />
+      <item itemvalue="Application.RatingsCounter" />
+      <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.CustomerOrders" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CustomerOrders" />
+        <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.MinTempFilter" />
         <item itemvalue="Application.CountFriends" />
         <item itemvalue="Application.RatingsCounter" />
-        <item itemvalue="Application.TestScala" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +320,7 @@
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="scalaspark-build [file:/D:/Study/ApacheSpark/SparkProject/ScalaSpark/]" />
+                <option name="name" value="ScalaSpark-build" />
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -333,9 +358,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3832" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18309858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -344,7 +370,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3259177" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49161637" visible="true" weight="0.44152048" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -352,9 +378,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50838363" side_tool="true" visible="true" weight="0.44152048" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.2502781" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32703003" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.490275" weight="0.3260234" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -364,10 +390,8 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="sbt" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.sbt">
@@ -388,9 +412,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="23" column="38" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#31#56#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/CalculateAverage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -398,33 +426,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/MinTempFilter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="34" selection-start-line="8" selection-start-column="3" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/SparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="140" column="41" selection-start-line="140" selection-start-column="41" selection-end-line="140" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/WordCountSpark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="47" />
           <folding>
             <element signature="e#31#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.3.0.jar!/org/apache/spark/SparkContext.class">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/CustomerOrders.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/CalculateAverage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="e#31#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/org/study/scala/spark/MinTempFilter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="221">
+          <caret line="13" column="114" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
           <folding>
             <element signature="e#31#70#0" expanded="true" />
           </folding>
