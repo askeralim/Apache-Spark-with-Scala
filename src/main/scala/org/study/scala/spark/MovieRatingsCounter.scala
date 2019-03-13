@@ -3,7 +3,7 @@ package org.study.scala.spark
 import org.apache.spark._
 import org.apache.log4j._
 
-object RatingsCounter extends App {
+object MovieRatingsCounter extends App {
   /** Our main function where the action happens */
   override def main(args: Array[String]) {
 
@@ -18,13 +18,13 @@ object RatingsCounter extends App {
 
     // Convert each line to a string, split it out by tabs, and extract the third field.
     // (The file format is userID, movieID, rating, timestamp)
-    val ratings = lines.map(x => x.toString().split("\t")(2))
-
+    val ratings = lines.map(x => x.toString().split("\t")(1))//,x.toString().split("\t")(2)))
+    //ratings.foreach(println)
     // Count up how many times each value (rating) occurs
     val results = ratings.countByValue()
 
-    // Sort the resulting map of (rating, count) tuples
-    val sortedResults = results.toSeq.sortBy(_._1)
+    // Sort the resulting map of (rating, count) tuples, Sort with Lowest Rating First
+    val sortedResults = results.toSeq.sortBy(_._2)
 
     // Print each result on its own line.
     sortedResults.foreach(println)
